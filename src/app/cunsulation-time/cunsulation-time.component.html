@@ -1,0 +1,44 @@
+<mat-card class="Info-card">
+  
+  
+  <mat-card-content class="consulation-number1">
+      <div class="consulation-number2">{{ userInfo.transactionID}}</div>
+  </mat-card-content>
+  <mat-card-content>
+      Consultation Time
+
+     <div class="consulation-info">
+       <!-- Date and time -->
+       <p>
+         <mat-icon aria-hidden="true" aria-label="consulation-datetime">calendar_today</mat-icon> วันที่ 25 พฤศจิกายน 2563 เวลา 12:00 น.
+       </p>
+
+       <!-- Doctor-->
+       <p>
+         <mat-icon aria-hidden="true" aria-label="consulation-datetime">person</mat-icon> นพ. ทรงพล นุชวงศ์ (Virtual Hospital)
+       </p>
+
+       <!-- Doctor's recommendation -->
+       <mat-accordion>
+        <mat-expansion-panel (opened)="panelOpenState = true"  (closed)="panelOpenState = false">
+        <mat-expansion-panel-header>
+              <mat-panel-title>
+                คำแนะนำ/ Doctor's Recommendation 
+              </mat-panel-title>
+        </mat-expansion-panel-header>
+             <p>      ทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบทดสอบ
+             </p>
+        </mat-expansion-panel>
+        </mat-accordion>
+        <app-medical-fee></app-medical-fee>
+     </div>
+     
+     <a class="nav-item nav-link" (click)="logout()">Logout</a>
+  </mat-card-content>
+  
+</mat-card>
+
+
+<!-- Copyright 2019 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->

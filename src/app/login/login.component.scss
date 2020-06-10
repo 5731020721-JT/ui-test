@@ -1,0 +1,383 @@
+  /* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+::ng-deep .otp-input:placeholder-shown {
+  color: white !important
+}
+::ng-deep .otp-input::placeholder {
+  color: white !important
+}
+::ng-deep .otp-input:-moz-placeholder {
+  color: white !important
+}
+
+::ng-deep .otp-input{
+  background-color: rgba(125, 143, 155, 0.001) !important ;
+  font-size: 240% !important;
+  border-color: none !important;
+  width: 10% !important;
+  height: 10% !important;
+  font-weight: 500 !important;
+  border: none !important;
+  border-width: 0px !important;
+  color: #b5945e !important;
+  margin-top: 3% !important;
+}
+
+::ng-deep .otp-input:focus{
+  outline: none;
+  caret-color: transparent;
+
+} 
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0) and (orientation: portrait) {
+
+  .center {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60%;
+    
+    
+  }
+  .logo {
+    width: 45%;
+    height: auto;
+  }
+  .title1  {
+    font-size: 6vw;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+
+  .title2  {
+    font-size: 5vw;
+    font-weight: 300;
+    line-height: 1.53;
+    color: #ffffff;
+  }
+
+  .error
+  {
+    font-size: 5vw;
+    font-weight: 500;
+    line-height: 1.53;
+    color: #a0322f ;
+  }
+
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 550px) and (orientation: portrait){
+ .center {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60%;
+    
+  }
+
+  .logo {
+    width: 45%;
+     height: auto;
+  }
+  
+  .title1  {
+  font-size: 6vw;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  }
+
+  .title2  {
+  font-size: 5vw;
+  font-weight: 300;
+  line-height: 1.53;
+  color: #ffffff;
+  }
+
+  .error
+  {
+  font-size: 5vw;
+  font-weight: 500;
+  line-height: 1.53;
+  color: #a0322f ;
+  }
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (orientation: portrait){ 
+  .center {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 45%;
+    
+  }
+
+  .logo {
+    width: 45%;
+     height: auto;
+  }
+  .title1  {
+  font-size: 6vw;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  }
+
+  .title2  {
+  font-size: 5vw;
+  font-weight: 300;
+  line-height: 1.53;
+  color: #ffffff;
+  }
+
+  .error
+  {
+  font-size: 5vw;
+  font-weight: 500;
+  line-height: 1.53;
+  color: #a0322f ;
+  }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (orientation: portrait){ 
+  .center {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 45%;
+    
+  }
+  .logo {
+    width: 45%;
+     height: auto;
+  }
+  .title1  {
+  font-size: 3.5vw;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  }
+
+  .title2  {
+  font-size: 2.5vw;
+  font-weight: 300;
+  line-height: 1.53;
+  color: #ffffff;
+  }
+
+  .error
+  {
+  font-size: 2.5vw;
+  font-weight: 500;
+  line-height: 1.53;
+  color: #a0322f ;
+  }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) and (orientation: portrait)
+{
+  .center {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 45%;
+    
+  }
+  
+  .logo {
+    width: 45%;
+     height: auto;
+  }
+  .title1  {
+  font-size: 3.5vw;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  }
+
+  .title2  {
+  font-size: 2.5vw;
+  font-weight: 300;
+  line-height: 1.53;
+  color: #ffffff;
+  }
+
+  .error
+  {
+  font-size: 2.5vw;
+  font-weight: 500;
+  line-height: 1.53;
+  color: #a0322f ;
+  }
+}
+
+
+//Landscape
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 550px) and (orientation: landscape){
+  .center {
+     text-align: center;
+     margin: 0 auto;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-top: 10%;
+     
+  }
+  .logo {
+    width: 30%;
+     height: auto;
+  }
+
+  .title1  {
+  font-size: 3.5vw;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  }
+
+  .title2  {
+  font-size: 2.5vw;
+  font-weight: 300;
+  line-height: 1.53;
+  color: #ffffff;
+  }
+
+  .error
+  {
+  font-size: 2.5vw;
+  font-weight: 500;
+  line-height: 1.53;
+  color: #a0322f ;
+  }
+ 
+ 
+ }
+ // Medium devices (tablets, 768px and up)
+ @media (min-width: 768px) and (orientation: landscape){ 
+  .center {
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+     
+  }
+  .logo {
+    width: 30%;
+    height: auto;
+  }
+
+  .title1  {
+    font-size: 3.5vw;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+
+  .title2  {
+    font-size: 2.5vw;
+    font-weight: 300;
+    line-height: 1.53;
+    color: #ffffff;
+  }
+
+  .error
+  {
+    font-size: 2.5vw;
+    font-weight: 500;
+    line-height: 1.53;
+    color: #a0322f ;
+  }
+}
+ 
+ // Large devices (desktops, 992px and up)
+ @media (min-width: 992px) and (orientation: landscape){ 
+   .center {
+     text-align: center;
+     margin: 0 auto;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-top: 20%;
+     
+   }
+
+   .logo {
+    width: 30%;
+    height: auto;
+  }
+
+  .title1  {
+    font-size: 3.5vw;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+
+  .title2  {
+    font-size: 2.5vw;
+    font-weight: 300;
+    line-height: 1.53;
+    color: #ffffff;
+  }
+
+  .error{
+    font-size: 2.5vw;
+    font-weight: 500;
+    line-height: 1.53;
+    color: #a0322f ;
+  }
+}
+ 
+ // Extra large devices (large desktops, 1200px and up)
+ @media (min-width: 1200px) and (orientation: landscape)
+ {
+  .center {
+     text-align: center;
+     margin: 0 auto;
+     padding-left: 10%;
+     padding-right: 10%;
+     padding-top: 20%;
+     
+  }
+  .logo {
+    width: 30%;
+     height: auto;
+  }
+
+  .title1  {
+    font-size: 3.5vw;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+
+  .title2  {
+    font-size: 2.5vw;
+    font-weight: 300;
+    line-height: 1.53;
+    color: #ffffff;
+  }
+
+  .error
+  {
+    font-size: 2.5vw;
+    font-weight: 500;
+    line-height: 1.53;
+    color: #a0322f ;
+  }
+
+ }
+ 
+ 
+

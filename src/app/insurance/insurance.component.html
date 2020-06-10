@@ -1,0 +1,22 @@
+<mat-card class="getInsurance-card">
+  
+  
+  
+  <mat-card-content>
+
+      <form [formGroup]="InsuranceForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="insuranceName">กรุณากรอกชื่อประกันที่ท่านต้องการเคลม</label>
+          <input type="text" class="form-control"
+           id="insuranceName" formControlName = "insuranceName">
+          <span class="help-block" *ngIf="!InsuranceForm.get('insuranceName').valid&&InsuranceForm.get('insuranceName').touched">
+            <span *ngIf = "InsuranceForm.get('insuranceName').errors['required']">field is required</span>
+          </span>
+       </div>
+       
+      
+      </form>
+     
+
+  </mat-card-content>
+</mat-card>
